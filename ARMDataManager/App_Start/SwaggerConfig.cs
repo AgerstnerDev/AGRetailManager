@@ -4,7 +4,8 @@ using ARMDataManager;
 using Swashbuckle.Application;
 using ARMDataManager.App_Start;
 
-//[assembly: PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
+
+[assembly: PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
 
 namespace ARMDataManager
 {
